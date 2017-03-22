@@ -1,0 +1,37 @@
+.container {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.items {
+    width: 31%;
+    height: 31%;
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+.x.selected {
+    background-image: url(x.png);
+}
+
+.o.selected {
+    background-image: url(o.png);
+}
+
+.info {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    font-size: 3em;
+    background-color: #f2f4f7;
+    color: grey;
+    margin: auto;
+}
+
+#clap {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    display: none;
+}
